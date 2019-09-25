@@ -7,11 +7,11 @@
     tools:context=".CategoryActivity">
 
     <ListView
-        android:id="@+id/lvcate"
+        android:id="@+id/lvprio"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:foregroundGravity="top"
-        app:layout_constraintBottom_toTopOf="@+id/fab_cate"
+        app:layout_constraintBottom_toTopOf="@+id/fab_prio"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="1.0"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_cate"
+        android:id="@+id/fab_prio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
