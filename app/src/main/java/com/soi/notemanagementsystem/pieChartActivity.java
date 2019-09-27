@@ -24,13 +24,13 @@ public class pieChartActivity extends AppCompatActivity {
     }
 
     private void runPieChart() {
-        float Processing = 20;
-        float Pending = 30;
-        float Done = 50;
+        float Processing = 60;
+        float Pending = 20;
+        float Done = 20;
         List<SliceValue> listDl = new ArrayList<>();
-        listDl.add(new SliceValue(Processing, Color.BLUE).setLabel("Processing: "+Processing+"%"));
+        listDl.add(new SliceValue(Processing, Color.GRAY).setLabel("Processing: "+Processing+"%"));
         listDl.add(new SliceValue(Pending,Color.RED).setLabel("Pending: "+Pending+"%"));
-        listDl.add(new SliceValue(Done,Color.GRAY).setLabel("Done: "+Done+"%"));
+        listDl.add(new SliceValue(Done,Color.BLUE).setLabel("Done: "+Done+"%"));
 
         PieChartData dBd = new PieChartData(listDl);
         dBd.setHasLabels(true);
